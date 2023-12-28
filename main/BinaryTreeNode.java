@@ -3,10 +3,9 @@ public class BinaryTreeNode {
     public BinaryTreeNode left;
     public BinaryTreeNode right;
 
-    public BinaryTreeNode(int data) {
+    public BinaryTreeNode(int data, BinaryTreeNode left, BinaryTreeNode right) {
         this.data = data;
-        this.left = null;
-        this.right = null;
+        this.left = left;
+        this.right = right;
     }
-    
 }
